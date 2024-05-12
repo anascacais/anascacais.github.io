@@ -3310,7 +3310,7 @@ input, select, textarea {
 		cursor: default;
 		text-align: center;
 		z-index: 1;
-		min-height: 100vh;
+		min-height: 80vh; /* sets upper margin before intro. can't be smaller than intro or it will not appear again after scrolling down */
 	}
 
 		#intro input, #intro select, #intro textarea {
