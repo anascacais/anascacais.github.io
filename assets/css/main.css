@@ -3777,6 +3777,9 @@ input, select, textarea {
 		#main > footer {
 			text-align: center;
 		}
+		#footer-content {
+			text-align: center;
+		}
 
 		#main > .post {
 			padding: 8rem 8rem 6rem 8rem ;
