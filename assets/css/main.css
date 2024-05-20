@@ -3785,13 +3785,18 @@ input, select, textarea {
 			padding: 8rem 8rem 6rem 8rem ;
 		}
 
+		#main > .post ul li {
+			line-height: 1.1; 
+			margin-bottom: 0.5rem;
+		}
+
 			#main > .post header.major > .date {
 				margin-top: -2rem;
 			}
 
 			#main > .post header.major > h1, #main > .post header.major h2 {
 				font-size: 4rem;
-				line-height: 1.1;
+				line-height: 1.1; 
 				margin: 0 0 2rem 0;
 			}
 
