@@ -3895,6 +3895,10 @@ input, select, textarea {
 					width: 50%;
 				}
 
+				#main > .posts > c {
+					text-align: center;
+				}
+
 			}
 
 			@media screen and (max-width: 736px) {
