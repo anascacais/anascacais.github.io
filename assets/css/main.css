@@ -3393,7 +3393,7 @@ input, select, textarea {
 		#intro p {
 			font-size: 1.25rem;
 			font-style: italic;
-			margin-top: -0.25rem;
+			margin-top: -2rem;
 			text-align: center;
 		}
 
@@ -4720,9 +4720,11 @@ input, select, textarea {
 		align-items: center;
 		flex-direction: row;
 		gap: 40px;
+
+
 	  
-		@media (max-width: 500px) {
-			#wrapper {
+		@media (max-width: 768px) {
+			/* #wrapper {
 				flex-direction: column;    
 			}
 			#right-content {
@@ -4731,7 +4733,9 @@ input, select, textarea {
 		
 			section {
 				flex: 1;   
-			}
+			} */
+			display:flex;
+      		flex-direction:column;
 		}
 	}
 
