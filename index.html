@@ -11,6 +11,11 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+			.custom-line-height {
+				line-height: 24px;
+			}
+		</style>
 	</head>
 	<body class="is-preload">
 
@@ -64,22 +69,27 @@
 						
 
 						<center>
-							
-							<h3>✨ My Featured Posts ✨</h3>
-							<!-- <center>
-								I've been trying to document the work I do on my PhD in a way that:
-								<li> Highlights some of the challenges I encounter along the way; </li>
-								<li> Showcases my learning process as I deal with those challenges;</li>
-								<li> Pushes me to translate scientific knowledge into a content for a broader audience; </li>
-								<li> Features my journey as an academic that wants to venture into industry.</li>
-							</center> -->
-
+							<h3>✨ My Featured Projects ✨</h3>
 						</center>
+
 						<!-- Posts -->
-							<section class="posts">
-								<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7176599772504489986" height="800" width="504" frameborder="0" allowfullscreen="" title="Forest plots in R"></iframe>
-								<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6879504712165531648" height="800" width="504" frameborder="0" allowfullscreen="" title="Graph of research network"></iframe>
-							</section>
+						<section class="posts">
+                            <article>
+                                <a href="https://github.com/anascacais/forest-plot-SR" target="_blank"><h4>Customizing forest plots in R</h4>
+                                <img src="projects/forest-plot.png" width="100%"></a>
+                                <p style="text-align: center;" class="custom-line-height"> R programming ● meta-analysis ● statistical analysis ● forest plot </p>
+                            </article>  
+							<article>
+                                <a href="https://github.com/anascacais/research_network" target="_blank"><h4>Visualizing the main players of a field</h4>
+                                <img src="projects/research-network.png" width="100%"></a>
+                                <p style="text-align: center;" class="custom-line-height"> network ● graphs ● visualization tool ● Python programming</p>
+                            </article>  
+							<article>
+                                <a href="https://github.com/PIA-Group/epibox_app" target="_blank"><h4>Automating long-term data collection</h4>
+                                <img src="projects/epibox-app.gif" width="70%"></a>
+                                <p style="text-align: center;" class="custom-line-height"> data collection ● time series ● user interface ● wireless communication ● mobile app ● flutter</p>
+                            </article> 
+                        </section>
 
 						
 
