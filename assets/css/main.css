@@ -3217,6 +3217,11 @@ input, select, textarea {
 
 /* Wrapper */
 
+	#adobe-dc-view {
+		width: 100%;
+		height: 100vh; /* Full viewport height */
+	}
+
 	#wrapper {
 		-moz-transition: opacity 0.5s ease;
 		-webkit-transition: opacity 0.5s ease;
@@ -3779,6 +3784,11 @@ input, select, textarea {
 		}
 		#footerin {
 			text-align: center;
+		}
+
+		#main > .adobe-dc-view {
+			width: 100%;
+			height: 100vh; /* Full viewport height */
 		}
 
 		#main > .post {
