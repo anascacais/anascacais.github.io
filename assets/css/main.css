@@ -4767,7 +4767,7 @@ input, select, textarea {
 .summary{
   flex:1;
   max-width:60%;
-  line-height:1.45;
+  line-height:1.6;
   text-align:justify;      /* full-width justification */
   overflow-wrap:anywhere;
 }
