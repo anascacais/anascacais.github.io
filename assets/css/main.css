@@ -3611,7 +3611,7 @@ input, select, textarea {
 /* Nav */
 
 	#nav {
-		color: #ffffff;
+		color: #1e252d;
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -3620,7 +3620,7 @@ input, select, textarea {
 		-webkit-transition: -webkit-transform 1s ease, opacity 1s ease;
 		-ms-transition: -ms-transform 1s ease, opacity 1s ease;
 		transition: transform 1s ease, opacity 1s ease;
-		background: rgba(255, 255, 255, 0.175);
+		background: rgba(224, 215, 211, 1);
 		height: 4rem;
 		line-height: 4rem;
 		margin: -4rem auto 0 auto;
@@ -3637,7 +3637,7 @@ input, select, textarea {
 		}
 
 		#nav ul.icons li a.icon:hover:before {
-			color: #18bfef;
+			color: #1e252d;
 		}
 
 		#nav ul.icons.alt li .icon:before {
@@ -3645,7 +3645,7 @@ input, select, textarea {
 		}
 
 		#nav ul.icons.alt li a.icon:hover:before {
-			box-shadow: inset 0 0 0 2px #18bfef;
+			box-shadow: inset 0 0 0 2px #1e252d;
 		}
 
 		#nav input, #nav select, #nav textarea {
@@ -3659,7 +3659,7 @@ input, select, textarea {
 
 			#nav a:hover {
 				border-bottom-color: transparent;
-				color: #18bfef !important;
+				color: #1e252d !important;
 			}
 
 		#nav strong, #nav b {
@@ -3735,7 +3735,7 @@ input, select, textarea {
 					}
 
 						#nav ul.links li.active a:hover {
-							color: #18bfef !important;
+							color: #1e252d!important;
 						}
 
 		#nav ul.icons {
@@ -4751,5 +4751,37 @@ input, select, textarea {
 
 	
 
+.image-txt{
+  display:flex;
+  align-items:center;   /* vertical centring while in row layout */
+  gap:4rem;             /* horizontal space between image & text */
+}
 
+.image-txt img{
+  flex:0 0 40%;
+  max-width:40%;
+  height:auto;
+  object-fit:cover;
+}
 
+.summary{
+  flex:1;
+  max-width:60%;
+  line-height:1.45;
+  text-align:justify;      /* full-width justification */
+  overflow-wrap:anywhere;
+}
+
+/* -------- Mobile: stack elements -------- */
+@media (max-width:600px){
+  .image-txt{
+    flex-direction:column;
+    gap:1.25rem;        /* a bit tighter when stacked */
+    text-align:center;
+  }
+  .image-txt img,
+  .summary{
+    max-width:100%;
+	text-align:left;       /
+  }
+}
